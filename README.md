@@ -11,3 +11,6 @@ cors allow everything, useful for debugging (use https://github.com/rs/cors for 
 
 ## JSONContentType
 sets the `Content-Type` header to `application/json`
+
+## BasicAuth  
+simple basic auth middleware, pass handler and a string in the format of `user:password`, only supports 1 user.  
